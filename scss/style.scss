@@ -1,0 +1,12 @@
+@import 'vars';
+@import 'fonts';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
