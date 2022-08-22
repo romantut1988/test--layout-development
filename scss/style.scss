@@ -5,8 +5,86 @@ html {
     box-sizing: border-box;
 }
 
+*,h1,h2,h3,h4,h5,h6,p,ul,a {
+    margin: 0;
+    padding: 0;
+  }
+
 *,
 *::after,
 *::before {
     box-sizing: inherit;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1513px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+
+.header {
+    padding-top: 35px;
+
+    &__content {
+        background-image: url(/images/header-bg.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    &__inner {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        padding-top: 35px;
+    }
+
+    &__right-block {
+        display: flex;
+        align-items: center;
+    }
+
+    &__center {
+        text-align: center;
+    }
+
+    &__top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+}
+
+.logo__img {
+    width: 120px;
+    height: 56px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.top {
+    &__content-center {
+        display: flex;
+        text-align: center;
+    }
+    &__text {
+        width: 182px;
+    }
+
 }
