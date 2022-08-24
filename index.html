@@ -15,10 +15,10 @@
     <div class="header__content">
       <div class="container">
         <div class="header__inner">
-          <a class="logo" href="#">
+          <a class="header__logo logo" href="#">
             <img class="logo__img" src="/images/logo.png" alt="logo">
           </a>
-          <nav class="menu">
+          <nav class="menu__top menu">
             <ul class="menu__list">
               <li class="menu__list-item">
                 <a class="menu__list-link" href="#">Каталог</a>
@@ -38,7 +38,7 @@
             <div class="header__phone">
               <a class="header__phone-link" href="tel:79655698998">
                 <img class="phone__img" src="/images/phone-icon.png" alt="phone">
-                <span>+7(965)569-89-98</span>
+                <span class="phone__span phone">+7(965)569-89-98</span>
               </a>
             </div>
             <div class="header__personal">
@@ -87,11 +87,141 @@
   </header>
 
   <section class="slider">
-
+    <div class="container">
+      <div class="slider__items">
+        <div class="slider__item-left">
+          <div class="top__slider-info">
+            <span class="slider__discount">-50%</span>
+            <h4 class="slider__title">
+              Ежик “Евгений”
+            </h4>
+            <p class="slider__text">
+              Очень любит сладости. Маленький сладкоежка=) Мы называем его так между собой. Ручной, любит внимаение
+            </p>
+            <span class="slider__span">3 000 ₽</span>
+            <h4 class="slider__title-price">1 500 ₽</h4>
+          </div>
+          <div class="slider__statistics">
+            <a class="slider__icon" href="#">
+              <img class="slider__icon-img" src="/images/slider-icon.png" alt="slidericon">
+            </a>
+            <img class="slider__img" src="/images/slider-left.png" alt="sliderimages">
+            <a class="slider__icon-add">
+              <img class="slider__img-add" src="/images/slider-add.png" alt="slideradd">
+            </a>
+          </div>
+        </div>
+        <div class="slider__item-right">
+          <div class="top__slider-info">
+            <span class="slider__discount">-50%</span>
+            <h4 class="slider__title">
+              Ежик “Максим”
+            </h4>
+            <p class="slider__text">
+              Немного игривый и задорный характер этого друга никого не оставит равнодушным!
+            </p>
+            <span class="slider__span">5 000 ₽</span>
+            <h4 class="slider__title-price">2 500 ₽</h4>
+          </div>
+          <div class="slider__statistics">
+            <a class="slider__icon" href="#">
+              <img class="slider__icon-img" src="/images/slider-icon.png" alt="slidericon">
+            </a>
+            <img class="slider__img" src="/images/slider-right.png" alt="sliderimages">
+            <a class="slider__icon-add">
+              <img class="slider__img-add" src="/images/slider-add.png" alt="slideradd">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
 
+  <section class="booking">
+    <div class="container">
+      <div class="booking__shape">
+        <h3 class="booking__title">Заполните заявку и мы забронируем для Вас нового друга</h3>
+        <div class="booking__choice">
+          <div class="booking__content">
+            <button class="booking__btn">хочу ёжика для себя</button>
+            <button class="booking__btn">хочу ёжика для детей</button>
+            <button class="booking__btn">хочу ёжика для разведения</button>
+          </div>
+          <div class="booking__inner">
+            <p><input name="dzen" type="radio" value="nedzen">Мне нужен 1-2 ёжика</p>
+            <p><input name="dzen" type="radio" value="nedzen">Мне нужны 3 и более ёжиков</p>
+            <p><input name="dzen" type="radio" value="nedzen">Мне нужны 3-4 ёжика</p>
+            <p><input name="dzen" type="radio" value="nedzen">Пока присматриваюсь</p>
+          </div>
+        </div>
+        <form class="booking__form">
+          <input class="booking__input" type="text" placeholder="Ваше имя">
+          <input class="booking__input" type="text" placeholder="Ваш телефон">
+          <input class="booking__input" type="text" placeholder="Ваш e-mail">
+          <textarea class="booking__area" placeholder="Комментарий к заявке"></textarea>
+          <button class="booking__btn-form" type="submit">Купить ёжика</button>
+        </form>
+        <div class="booking__info">
+          <img class="booking__info-img" src="/images/booking-img.png" alt="bookingimg">
+          <p class="booking__info-title">У на осталось еще: <span>25 ёжиков</span></p>
+        </div>
+        <p class="booking__text-attention">Торопитесь! Акция действует до 26. 02. 2023</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="logo" href="#">
+          <img class="logo__img" src="/images/logo.png" alt="logo">
+        </a>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">Каталог</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">о нас</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">контакты</a>
+            </li>
+            <li class="menu__list-item">
+              <a class="menu__list-link" href="#">галерея</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="list">
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="/images/instagram.svg" alt="instagram">
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="/images/facebook.svg" alt="facebook">
+            </a>
+          </li>
+          <li class="list__item">
+            <a class="list__link" href="#">
+              <img class="list__img" src="/images/twitter.svg" alt="twitter">
+            </a>
+          </li>
+        </ul>
+        <a class="footer__phone-link" href="tel:79655698998">
+          <span class="phone__span phone">+7(965)569-89-98</span>
+        </a>
+      </div>
+    </div>
+    <p class="footer__text">Все права защищены.
+      Указанная стоимость товаров и условия их приобретения действительны на текущую дату.
+    </p>
+  </footer>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
